@@ -151,3 +151,10 @@ h1 {
   position: fixed;
   left: 11%;
 }
+
+/*-------------------CONTACT PAGE------------------*/
+#portraitphoto{
+  border: solid #275E5F 20px;
+  padding: 10px;
+  width: 30px;
+}
