@@ -126,7 +126,8 @@ h1 {
 
 /*-------------------GENERAL PAGE FORMAT------------------*/
 .mainpagetitle {
-  float: inherit;
+  padding: 20px;
+  padding-left: 10%;
 }
 
 .sideimage {
@@ -146,3 +147,7 @@ h1 {
 }
 
 /*-------------------SUBMISSION PAGE------------------*/
+#SubmissionForm{
+  position: fixed;
+  left: 11%;
+}

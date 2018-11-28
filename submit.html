@@ -28,8 +28,18 @@
 	<h1 class="mainpagetitle">Post a Submission</h1>
 	<form id="SubmissionForm">
 		<h3>Your Identity: <input type="text" name="identifier"></h3>
+		<h3>Type of Submission:
+			<select name="type" value="Type">
+				<option value="location">Location</option>
+				<option value="process">Process</option>
+				<option value="service">Service</option>
+				<option value="other">Other</option>
+			</select>
+		</h3>
 		<h3>Topic of Submission: <input type="text" name="topic"></h3>
-		<h3>Location: <input type="text" name="location"></h3>
+		<h3>My Submission:<br>
+			<textarea name="review" rows="10" cols="90"></textarea>
+		</h3>
 		<input type="submit" value="Submit" id="submitbutton">
 	</form>
 </body>
