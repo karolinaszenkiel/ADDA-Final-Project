@@ -145,4 +145,5 @@ h1{
 .bodytext{
 	align-self: center;
 	flex-basis: 60%;
+	padding-right: 30px;
 }
