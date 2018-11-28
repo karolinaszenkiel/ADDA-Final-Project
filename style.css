@@ -121,6 +121,11 @@ h1{
 	font-size: 40pt;
 }
 
+/*----------------------MAIN SECTION FORMATTING---------------*/
+.flexbox-container {
+	display: flex;
+}
+
 /*-------------------GENERAL PAGE FORMAT------------------*/
 
 .mainpagetitle{
@@ -128,11 +133,16 @@ h1{
 
 }
 .sideimage{
-	position: relative;
-	width: 40%;
-	float: left;
+	flex-basis: 40%;
 	padding-right: 30px;
+	margin: 10px;
 }
 
-.bodyText{
+.sideimage img {
+	width: 100%;
+}
+
+.bodytext{
+	align-self: center;
+	flex-basis: 60%;
 }
